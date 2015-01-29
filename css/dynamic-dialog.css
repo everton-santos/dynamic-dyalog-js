@@ -1,0 +1,51 @@
+
+/*  Copyright 2013  EVERTON_SANTOS  (email : everton.mailbox@gmail.com)
+	https://github.com/everton-santos/dynamic-dyalog-js
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License, version 2, as 
+    published by the Free Software Foundation.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+.dynamic-dialog-background {
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: visible;
+    outline: none;
+    position: absolute;
+    width: 100%;
+    z-index: 200;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+}
+.dynamic-dialog-content{
+    z-index: 250;
+    max-width: 800px;
+    margin:10% auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: -1000px;
+}
+
+.dynamic-dialog{
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: visible;
+    outline: none;
+    position: absolute;
+    width: 100%;
+    z-index: 10000;
+    height: 100%;
+}
